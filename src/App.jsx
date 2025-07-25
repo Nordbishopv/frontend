@@ -45,6 +45,8 @@ import ForgotPassword from './views/auth/forgotPassword';
 import CreatePassword from './views/auth/createPassword';
 import VendorRegister from './views/vendor/VendorRegister';
 import OrderItemDetail from './views/vendor/OrderItemDetail';
+import contactUs from './views/pages/contactUs';
+
 
 
 
@@ -81,6 +83,8 @@ function App() { // Define the main 'App' component.
                         />
                         <Route path="/" element={<Home />} />
                         {/* Authentication Routes */}
+                        <Route path="/pages/contact" element={<contactUs />} />
+
                         <Route path="/login" element={<Login />} />
                         <Route path="/register" element={<Register />} />
                         <Route path="/logout" element={<Logout />} />
