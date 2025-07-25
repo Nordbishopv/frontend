@@ -1,0 +1,9 @@
+# netlify.toml
+[build]
+  command = "yarn build"
+  publish = "dist"
+
+[dev]
+  command = "yarn dev"
+  port = 5173
+  targetPort = 5173
